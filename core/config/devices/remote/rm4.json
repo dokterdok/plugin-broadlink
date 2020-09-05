@@ -32,6 +32,25 @@
 					"mobile": "line"
 				}
             },
+            {
+                "name": "Humidité",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "humidity",
+                "configuration" : {
+                    "logicalid" : "humidity"
+                },
+                "display": {
+                    "generic_type": "DONT"
+                },
+                "template": {
+                    "dashboard": "line",
+                    "mobile": "line"
+                }
+            },
 			 {
                 "name": "Rafraîchir",
                 "type": "action",
